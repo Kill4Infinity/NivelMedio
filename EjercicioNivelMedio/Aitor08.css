@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-style: italic;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para los días y el título de la tabla */
+.titulo {
+    background: #b0c4de;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+th {
+    background: #a0c0ff;
+}
+
+/* Estilo de las horas */
+.hora {
+    background: #d6d6d6;
+    font-weight: bold;
+}
+
+/* Recreo */
+.recreo {
+    background: #ffcc00;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Colores para cada asignatura */
+.ral {
+    background: red;
+    color: white;
+}
+
+.mme {
+    background: lightblue;
+    color: black;
+}
+
+.som {
+    background: limegreen;
+    color: black;
+}
+
+.aplof {
+    background: magenta;
+    color: white;
+}
+
+.fol {
+    background: yellow;
+    color: black;
+}
+
+/* Media queries para hacerlo responsivo */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    .titulo {
+        font-size: 18px;
+    }
+
+    .recreo {
+        font-size: 16px;
+    }
+}

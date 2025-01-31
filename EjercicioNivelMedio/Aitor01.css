@@ -1,0 +1,54 @@
+/* Estilo general del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Títulos principales */
+h1 {
+    font-size: 24px;
+    color: #000080;
+}
+
+h2 {
+    font-size: 18px;
+    color: #000080;
+    margin-top: 20px;
+}
+
+/* Listas ordenadas */
+ol {
+    margin-left: 20px;
+}
+
+/* Listas desordenadas */
+ul {
+    margin-left: 20px;
+}
+
+ul li,
+ol li {
+    margin-bottom: 5px;
+}
+
+/* Media queries para hacerlo responsivo */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .autor, .contenido {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .contenido h2 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,111 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3; /* Color de fondo gris */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+/* Estilo del encabezado */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Caja principal */
+.main-box {
+    background: #f4c57a;
+    width: 60%;
+    margin: 20px auto;
+    padding: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo de las leyes */
+.law {
+    width: 25%;
+    padding: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    text-align: center;
+}
+
+/* Posiciones y colores de las leyes */
+.yellow {
+    background: #fdfd96;
+    top: 200px;
+    left: 10%;
+    height: 150px;
+}
+
+.blue {
+    background: #b2ebf2;
+    top: 200px;
+    right: 10%;
+    height: 150px;
+}
+
+.green {
+    background: #77dd77;
+    top: 380px;
+    left: 37%;
+    width: 26%;
+    height: 150px;
+}
+
+.pink {
+    background: #ffb6c1;
+    top: 580px;
+    left: 10%;
+    height: 150px;
+}
+
+.red {
+    background: #ff9999;
+    top: 580px;
+    right: 10%;
+    height: 150px;
+}
+
+@media (max-width: 768px) {
+    /* Ajustes generales */
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .main-box {
+        width: 90%;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    /* Ajustes para las cajas de leyes */
+    .law {
+        width: 40%;
+        height: 120px;
+        padding: 20px;
+        font-size: 16px;
+        position: static; /* Desactiva posicionamiento absoluto */
+        margin: 20px auto;
+    }
+
+    .yellow, .blue, .green, .pink, .red {
+        top: auto; /* Elimina las posiciones fijas */
+        left: auto;
+        right: auto;
+    }
+}

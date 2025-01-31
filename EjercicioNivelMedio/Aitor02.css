@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+header a {
+    text-decoration: none;
+    color: #5f6368;
+    margin: 0 10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    margin: 50px 0 20px 0;
+}
+
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    max-width: 600px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.barra-busqueda input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.barra-busqueda img {
+    width: 20px;
+    margin-left: 10px;
+    opacity: 0.6;
+}
+
+.botones {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.botones button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #202124;
+    cursor: pointer;
+}
+
+.botones button:hover {
+    border: 1px solid #dadce0;
+}
+
+.ofrecido {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.ofrecido a {
+    color: #1a73e8;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.ofrecido a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #70757a;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: #70757a;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .izquierda {
+    display: flex;
+}
+
+footer .derecha {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    footer .izquierda {
+        display: block;
+    }
+
+    footer .derecha {
+        display: block;
+    }
+}

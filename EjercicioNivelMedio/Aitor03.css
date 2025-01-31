@@ -1,0 +1,114 @@
+/* Estilos generales para toda la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado */
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-style: italic;
+}
+
+/* Área de contenido principal */
+main {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Sección del autor */
+.autor {
+    width: 30%;
+    background: #ddd;
+    padding: 10px;
+}
+
+/* Imagen del autor */
+.autor img {
+    width: 100%;
+    display: block;
+}
+
+/* Información del autor */
+.autor-info {
+    padding: 10px;
+}
+
+.autor-info h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.autor-info p {
+    font-size: 14px;
+}
+
+/* Sección del contenido del Quijote */
+.contenido {
+    width: 70%;
+    background: #ff9800;
+    color: black;
+    padding: 10px;
+}
+
+/* Título dentro del contenido */
+.contenido h2 {
+    color: black;
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Enlace dentro del pie de página */
+footer a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    footer a {
+        font-size: 12px;
+    }
+}
